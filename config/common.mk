@@ -277,3 +277,6 @@ $(call inherit-product-if-exists, vendor/certification/config.mk)
 include vendor/flare/config/version.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
+
+# Fonts
+include vendor/flare/config/fonts.mk
