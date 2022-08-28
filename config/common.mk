@@ -258,7 +258,8 @@ PRODUCT_PACKAGES += \
     CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
     NetworkStackOverlay \
-    PermissionControllerOverlay
+    PermissionControllerOverlay \
+    ThemedIconsOverlay
 
 # Bootanimation
 $(call inherit-product, vendor/flare/config/bootanimation.mk)
