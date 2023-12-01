@@ -191,7 +191,10 @@ PRODUCT_PACKAGES += \
     PermissionControllerOverlay
 
 # Bootanimation
- $(call inherit-product, vendor/flare/config/bootanimation.mk)
+$(call inherit-product, vendor/flare/config/bootanimation.mk)
+
+# Certification
+$(call inherit-product-if-exists, vendor/certification/config.mk)
 
 include vendor/flare/config/version.mk
 
