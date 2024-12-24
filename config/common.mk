@@ -207,6 +207,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural;com.google.android.systemui.gxoverlay
 
+# Packages
+PRODUCT_PACKAGES += \
+    Launcher3QuickStep \
+    ThemePicker
+
 # rsync
 PRODUCT_PACKAGES += \
     rsync
