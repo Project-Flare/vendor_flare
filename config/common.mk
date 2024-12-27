@@ -254,6 +254,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/flare/overlay/common
 
 PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay \
     CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
     NetworkStackOverlay \
