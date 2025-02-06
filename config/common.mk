@@ -275,7 +275,8 @@ PRODUCT_PACKAGES += \
     DocumentsUIOverlay \
     NetworkStackOverlay \
     PermissionControllerOverlay \
-    ThemedIconsOverlay
+    ThemedIconsOverlay \
+    FlareWallpaperStub
 
 # Bootanimation
 $(call inherit-product, vendor/flare/config/bootanimation.mk)
