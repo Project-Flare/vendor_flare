@@ -148,7 +148,7 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
 # FaceUnlock
 ifeq ($(TARGET_FACE_UNLOCK_SUPPORTED),true)
 PRODUCT_PACKAGES += \
-    ParanoidSense
+    FaceUnlock
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.face.sense_service=true
