@@ -12,3 +12,7 @@ endif
 PRODUCT_PACKAGES += \
     unrar \
     zstd
+
+# Include Flare LatinIME dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/flare/overlay/dictionaries
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/flare/overlay/dictionaries
