@@ -213,6 +213,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Packages
 PRODUCT_PACKAGES += \
+    Backgrounds \
     Launcher3QuickStep \
     ThemePicker
 
