@@ -13,3 +13,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PihooksGmsFp="google/cheetah_beta/cheetah:16/BP31.250502.008/13497110:user/release-keys" \
     PihooksGmsModel="Pixel 7 Pro"
+
+# GameProps
+include vendor/flare/gameprops/game_props.mk
